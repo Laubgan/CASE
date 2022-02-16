@@ -1,0 +1,331 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*выравнивание всего файла*/
+}
+
+.content {
+	height:100%;
+	width:100%;
+	background-color: #e6f1f8ce;
+padding-top: 10%;
+
+ }
+
+body{
+	display: flex;
+	text-align: center;
+	font-family: Montserrat, sans-serif;
+	background-color: #81be9dc7;
+	/*Настройка шрифта и выравнивание по центру*/
+}
+
+
+
+a{
+	color: #0a232b;
+	font-weight: bold;
+	text-decoration: none;
+	/*Изменение цвета текста*/
+}
+
+p{
+	margin: 10px 0;
+	/*Настройка отступа строк*/
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	padding: 25px;
+	
+	/*Настройка внешнего вида строк*/
+}
+
+input{
+	margin: 10px 0;
+	padding: 10px;
+	border: unset;
+	border-bottom: 2px solid #e3e3e3;
+	outline: none;
+	/*Настройка внешнего вида строк ввода*/
+}
+
+.button{
+	
+	padding: 10px;
+	background: #81be9d;
+	border: unset;
+	cursor: pointer;
+	/*Настройка внешнего вида кнопок*/
+}
+
+button{    
+     
+	font-weight: bold;    
+	padding: 10px;
+	background: #81be9d;
+	border: outset;
+	border-width: 1px;
+	border-color: #124218;
+	margin:3px;
+	cursor: pointer;
+	/*Настройка внешнего вида кнопок*/
+}
+.button_acc{
+	
+	padding: 10px;
+	background: #cbebda;
+	border: outset;
+	border-width: 1px;
+	border-radius: 50px; 
+	cursor: pointer;
+	/*Настройка внешнего вида кнопок*/
+}
+
+
+.account{
+	background-color: #fcfcfc;
+	border-radius: 35px;  
+	padding: 15px;
+  margin-top: 1%;
+display: block;
+float: right;
+}
+
+
+
+.cont{
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+padding-bottom: 5%;
+
+}
+
+
+#img1 {
+    float: left;
+    width: 110px;
+    height: 90px;    
+}
+#img2 {
+    float: right;
+    width: 100px;
+    height: 90px;    
+}
+
+#text{
+	color: #2F4F4F;
+	font-weight: bold;
+	font-size: 170%;
+	padding: 30px; /* Поля */
+	padding-left: 120px;
+    background: #c7eee5	; /* Цвет фона */
+    border-radius: 15px;   
+}
+
+.text_header{
+	color: #2F4F4F;
+	font-weight: bold;
+	font-size: 170%;
+	padding: 30px; /* Поля */
+	padding-left: 120px;
+    background: #c7eee5	; /* Цвет фона */
+    border-radius: 15px;
+
+}
+
+#text1{
+	color: #2F4F4F;
+	font-weight: bold;
+	font-size: 90%;
+	padding: 30px; /* Поля */
+	padding-left: 120px;
+    background: #c7eee5	; /* Цвет фона */
+    border-radius: 15px;   
+}
+
+.margin{
+	margin: 13px 0;
+	background: #ffffff;
+	color: #0b160a;
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+.text_footer{
+	color: #2F4F4F;
+	font-weight: bold;
+	font-size: 90%;
+	
+	  
+}
+
+
+#wrapper{
+width:95%;
+
+padding:3px;
+margin:0 auto;
+}
+
+#content_wrapper {
+	width:65%;
+	
+	padding:3px;
+	margin:0 auto;
+}
+
+footer {
+   
+    justify-content: center;
+    padding: 1%;
+    background-color: #81e4afcb;
+    
+}
+
+
+
+
+#menu{
+    
+	font-size: 110%;
+	/*  text-align: right;  */
+	padding:10px;
+    	color: #2F4F4F;
+	font-weight: bold;
+	font-size: 170%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+    background: #c7eee5	;  /*Цвет фона */
+    border-radius: 10px; 
+}
+
+
+.text_acc{
+	margin: 13px 0;
+	color: #2F4F4F;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+
+@media (max-width: 780px){
+
+
+	#content_wrapper {
+		width:100%;
+		
+		padding:3px;
+		margin:0 auto;
+	}
+	#wrapper{
+		width:100%;
+		
+		padding:3px;
+		margin:0 auto;
+	}
+
+	.account{
+		margin-top: 1%;
+		margin: 5px;
+		display: block;
+		float: right;
+		 
+	}
+		  
+
+	#img1 {
+		float: left;
+		width: 90px;
+		height: 75px;    
+	}	
+		
+	#img2 {
+		float: right;
+		width: 55px;
+		height: 50px;    
+	}
+
+	.button_acc{
+	    margin: 13px 0;
+		padding: 5px;
+		font-size: 10px;
+		background: #cbebda;
+		border: outset;
+		border-width: 1px;
+		cursor: pointer;
+		/*Настройка внешнего вида кнопок*/
+	}
+	.margin{
+		margin: 13px 0;
+		font-size: 10px;
+	}
+	
+	
+	.button{
+	    font-size: px;
+		padding: 10px;
+		background: #81be9d;
+		border: unset;
+		cursor: pointer;
+		/*Настройка внешнего вида кнопок*/
+	}
+	
+	button{
+		border: outset;
+		border-width: 1px;
+	border-color: #124218;
+		font-size: 12px;
+		padding: 10px;
+		background: #81be9d;
+		
+		cursor: pointer;
+		/*Настройка внешнего вида кнопок*/
+	}
+
+	.text_header{
+		color: #2F4F4F;
+		font-weight: bold;
+		font-size: 90%;
+		padding: 30px; /* Поля */
+		padding-left: 120px;
+		background: #c7eee5	; /* Цвет фона */
+		border-radius: 15px;
+	
+	}
+	
+	
+
+}
+
+
+
+
+
+
+
+/* 
+
+
+
+
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;                
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+
+
+ */
